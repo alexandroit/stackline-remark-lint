@@ -1,0 +1,31 @@
+{
+  "repository": "alexandroit/stackline-remark-lint",
+  "packages": [
+    {
+      "name": "@stackline/remark-lint",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "remark-lint",
+        "markdown",
+        "typescript",
+        "unified",
+        "remark",
+        "remark-plugin",
+        "plugin",
+        "mdast",
+        "lint",
+        "validate",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/remark-lint/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/remark-lint/-/remark-lint-1.0.0.tgz",
+      "baselineIntegrity": "sha512-TiAR/P/P4UoA8Xz5DzVVOxEsVTlGTJ7iZy7bS+Vl48pUzS4dpq/bOyJ3j/6WefElydOWdJs+kkcPrXjAMsTEBw==",
+      "expectedSha512": "6c177b10b84e3e49a95d20854537fda82437c2e70e28865f77c1067fac2a0883abba31ec6dd3a1949c538dd9ba4d2937066fab63e83ad0822fe0e852511cc472",
+      "tag": "docs-stackline-remark-lint-v1.0.1"
+    }
+  ]
+}
