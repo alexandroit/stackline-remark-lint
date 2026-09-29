@@ -4,7 +4,7 @@
     {
       "name": "@stackline/remark-lint",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -24,8 +24,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/remark-lint/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/remark-lint/-/remark-lint-1.0.0.tgz",
       "baselineIntegrity": "sha512-TiAR/P/P4UoA8Xz5DzVVOxEsVTlGTJ7iZy7bS+Vl48pUzS4dpq/bOyJ3j/6WefElydOWdJs+kkcPrXjAMsTEBw==",
-      "expectedSha512": "6c177b10b84e3e49a95d20854537fda82437c2e70e28865f77c1067fac2a0883abba31ec6dd3a1949c538dd9ba4d2937066fab63e83ad0822fe0e852511cc472",
-      "tag": "docs-stackline-remark-lint-v1.0.1"
+      "expectedSha512": "b613c28c3335c81f7bff44e419530f0ca8a0d6e15cfc05bed382363596694dce951fe1369d6823805181893ec01a0ceb55057321c306e6a224a34e37974a1fa2",
+      "tag": "docs-stackline-remark-lint-v1.0.2"
     }
   ]
 }
