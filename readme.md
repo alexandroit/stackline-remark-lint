@@ -1,28 +1,52 @@
 # @stackline/remark-lint
 
-Independent maintenance fork of `remark-lint@9.1.2`, preserving its API and published type declarations.
+> remark plugin to lint Markdown code style.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/remark-lint.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark-lint)
+[![license](https://img.shields.io/npm/l/@stackline/remark-lint.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark-lint)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-lint-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark-lint)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark-lint/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/remark-lint/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-lint)** | **[Issues](https://github.com/alexandroit/stackline-remark-lint/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-lint)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/remark-lint` is the Stackline-maintained distribution of `remark-lint@9.1.2`. It is an independent continuation of [remark-lint](https://github.com/remarkjs/remark-lint); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/remark-lint@1.0.1` |
+| API target | `remark-lint@9.1.2` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/mdast, remark-message-control` |
+
+## Installation
+
+```bash
 npm install @stackline/remark-lint
-# Keep existing imports:
-npm install remark-lint@npm:@stackline/remark-lint@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-lint/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install remark-lint@npm:@stackline/remark-lint
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# ![remark-lint][logo]
+### ![remark-lint][logo]
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 **[remark][]** plugin to support configuration comments for remark lint rules.
 
@@ -58,7 +82,7 @@ This package is [ESM only][esm].
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install remark-lint
+npm install @stackline/remark-lint
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -83,7 +107,7 @@ On the API:
 import {read} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {remark} from 'remark'
-import remarkLint from 'remark-lint'
+import remarkLint from '@stackline/remark-lint'
 
 main()
 
@@ -109,7 +133,7 @@ On the CLI in a config file (here a `package.json`):
  "remarkConfig": {
    "plugins": [
      …
-+    "remark-lint",
++    "@stackline/remark-lint",
      …
    ]
  }
@@ -202,3 +226,22 @@ abide by its terms.
 [mono]: https://github.com/remarkjs/remark-lint
 
 [ignore]: https://github.com/remarkjs/remark-lint#ignore-warnings
+
+## Credits and original authors
+
+- Original project: [remark-lint](https://github.com/remarkjs/remark-lint).
+- Titus Wormer.
+- Copyright (c) 2015 Titus Wormer.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
