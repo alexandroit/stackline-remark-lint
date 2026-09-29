@@ -1,4 +1,0 @@
-{
-  "extends": "../../tsconfig.json",
-  "references": [{"path": "../unified-lint-rule"}]
-}

@@ -1,0 +1,20 @@
+{
+  "upstream": "remark-lint",
+  "fork": "@stackline/remark-lint",
+  "repository": "alexandroit/stackline-remark-lint",
+  "upstreamRepository": "remarkjs/remark-lint",
+  "upstreamVersion": "9.1.2",
+  "sourceCommit": "639271aed95fa579623f385bade4939a9c70e959",
+  "upstreamIntegrity": "sha512-m9e/aPlh7tsvfJfj8tPxrQzD6oEdb9Foko+Ya/6OwUP9EoGMfehv1Qtv26W1DoH58Wn8rT8CD+KuprTWscMmIA==",
+  "head": "639271aed95fa579623f385bade4939a9c70e959",
+  "status": "source-ready",
+  "files": {
+    "index.js": "62145507c67e86cdb51006c1387a53724dc78d6148138b2d510f8e00957cc394",
+    "package.json": "f918cac376f9763a9ca90f2214605001ae3f55a25e910fdfa78d0c0cea66fb5e",
+    "readme.md": "365d1bed1384772f24fe20814cebe99c2f252feb80e8524d6e2200d9e10581fd",
+    "index.d.ts": "ca1050a376af0ddcc8c9aa53ce8be598e5a48f20188b5dacb376d7037fd70ed2"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
